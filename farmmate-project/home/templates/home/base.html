@@ -1,0 +1,63 @@
+{% load static %} {% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/styleForLogin.css' %}" />
+{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm-Mate/Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <div class="top-banner">
+    <div class="container">
+      <div class="small-bold-text banner-text">
+        Farming with intelligence !!
+      </div>
+    </div>
+  </div>
+  <div>
+    <nav>
+      <div class="container main-nav flex">
+        <a href="#" class="company-logo">
+          <img
+            src="{% static 'images/Farm-MateLogo - Copy.png' %}"
+            alt="Company Logo"
+          />
+        </a>
+        <div class="nav-links">
+          <ul class="flex">
+            <li><a href="#" class="hover-links">Products</a></li>
+            <li><a href="#" class="hover-links">About us</a></li>
+            <li><a href="#" class="hover-links">Resources</a></li>
+            <li><a href="#" class="hover-links">Help</a></li>
+            <li>
+              <button
+                type="submit"
+                href="{% url 'login' %}"
+                class="hover-links secondary-button"
+              >
+                Sign in
+              </button>
+            </li>
+            <li>
+              <button type="submit" href="#" class="hover-links primary-button">
+                Sign up
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <body>
+    {% block content %} {% endblock %}
+  </body>
+</html>
