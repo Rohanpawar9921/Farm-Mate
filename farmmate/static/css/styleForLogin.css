@@ -9,16 +9,18 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(1305.jpg) no-repeat;
+    background-color: aquamarine;
+    background: url(../images/1305.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
   .wrapper{
     width: 420px;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
-    background-color: black;
-    color: #fff;
+    border: 2px solid black;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color: black;
     border-radius: 12px;
     padding: 30px 40px;
   }
@@ -39,14 +41,14 @@
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgb(15, 1, 1);
     border-radius: 40px;
     font-size: 16px;
-    color: #fff;
+    color: black;
     padding: 20px 45px 20px 20px;
   }
   .input-box input::placeholder{
-    color: #fff;
+    color: black;
   }
   .input-box i{
     position: absolute;
@@ -63,12 +65,12 @@
     margin: -15px 0 15px;
   }
   .remember-forgot label input{
-    accent-color: #fff;
+    accent-color: black;
     margin-right: 3px;
   
   }
   .remember-forgot a{
-    color: #fff;
+    color: black;
     text-decoration: none;
   
   }
@@ -85,7 +87,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;
-    color: #333;
+    color: #040000;
     font-weight: 600;
   }
   .wrapper .register-link{
@@ -95,7 +97,7 @@
   
   }
   .register-link p a{
-    color: #fff;
+    color: #0b0101;
     text-decoration: none;
     font-weight: 600;
   }
