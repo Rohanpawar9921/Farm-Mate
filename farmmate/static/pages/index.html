@@ -3,40 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farm-Mate/LoginPage</title>
-    <link rel="stylesheet" href="..\css\styleForLogin.css">
-    
+    <title>Farm-Mate/Home</title>
+    <link rel="stylesheet" href="..\css\style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <form action="Home.html">
-            <h1>
-                Login
-            </h1>
-            <div class="input-box">
-                <input type="text" placeholder="Username" required>
-            </div>
-
-            <div class="input-box">
-                <input type="password" placeholder="Password" required>
-            </div>
-            <div class="remember-forgot">
-                <label>
-                    <input type="checkbox">
-                    Remember Me !
-                </label>
-                <a href="#">Forget Password</a>
-            </div>
-            <button type="submit" class="btn">Login</button> 
-            <div class="register-link">
-                <p>
-                    Don't Have an Account?
-                    <a href="#">
-                        Register
-                    </a>
-                </p>
-            </div>
-        </form>
+    <div class="top-banner">
+        <div class="container">
+            <div class="small-bold-text banner-text">Farming with intelligence !!</div>
+        </div>
     </div>
+    
+    <nav>
+        <div class="container main-nav flex">
+           <a href="#" class="company-logo">
+                <img src="../images/Farm-MateLogo - Copy.png" alt="Company Logo">
+           </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li><a href="products.html" class="hover-links">Products</a></li>
+                    <li><a href="aboutUs.html" class="hover-links">About us</a></li>
+                    <li><a href="resources.html" class="hover-links">Resources</a></li>
+                    <li><a href="help.html" class="hover-links">Help</a></li>
+                    <li><a href="Login.html" class="hover-links secondary-button">Sign in</a></li>
+                    <li><a href="#" class="hover-links primary-button">Sign up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header-section flex">
+            <div class="header-left">
+                <h1>Farming Intelligently
+                </h1>
+                <p>Empowering farmers with AI and ML, this website offers intelligent solutions to maximize yields, optimize resources, and make data-driven decisions for a smarter future in agriculture.</p>
+                <a href="#" class="primary-button get-started-button">Get Started</a>
+            </div>
+            <div class="header-right">
+                <img src="../images/FarmingConfidently - Copy.jfif" alt="Farmking Intelligently">
+            </div>
+        </div>
+    </header>
+
+    <section class="companies-section">
+        <div class="container">
+            <div class="small-bold-text"></div></div>
+    </section>
+
+    <!-- features Section -->
+
+    <section class="feature-section">
+        <div class="container">
+            <div class="features-header">
+                <h2 class="features-heading-text">
+                    Weather, cost analysis, soil, crops & more 
+                </h2>
+                <a href="#" class="secondary-button">
+                    See All Features  <i class="fa-solid fa-right-long"></i>
+                </a>
+            </div>
+            <div class="features-area flex">
+                <div class="features-card flex">
+                    <img src="..\images\cropHealthLogo.jpg" alt="" style="height: 100px; ">
+                    <h3>Crop Health</h3>
+                    <p>Cheack health of Your Crop by Clicking Photo of it</p>
+                    <a href="#" class="secondary-button">
+                        Learn More  <i class="fa-solid fa-right-long"></i>
+                    </a>
+                </div>
+           
+                <div class="features-card flex">
+                    <img src="..\images\cummunityLogo.jpg" alt="" style="height: 100px;">
+                    <h3>Community</h3>
+                    <p>See Peoples in your area and Peoples With similer intrests </p>
+                    <a href="#" class="secondary-button">
+                        Learn More  <i class="fa-solid fa-right-long"></i>
+                    </a>
+                </div>
+           
+                <div class="features-card flex">
+                    <img src="..\images\soilAnalysisLogo.png" alt="" style="height: 100px; border-radius: 50%;">
+                    <h3>Soil Analysis & Crop reccomendation</h3>
+                    <p>Cheack health of Your Soil by Clicking Photo of Your Health card</p>
+                    <a href="#" class="secondary-button">
+                        Learn More  <i class="fa-solid fa-right-long"></i>
+                    </a>
+                </div>
+           
+                <div class="features-card flex">
+                    <img src="..\images\governmentSchemesLogo.webp" alt="" style="height: 100px; border-radius: 50%;">
+                    <h3>Government Schemes</h3>
+                    <p>Cheack the government schemes For which you are eligible</p>
+                    <a href="#" class="secondary-button">
+                        Learn More  <i class="fa-solid fa-right-long"></i>
+                    </a>
+                </div>
+            
+                <div class="features-card flex">
+                    <img src="..\images\accountsLogo.png" alt="" style="height: 100px; border-radius: 100%;">
+                    <h3>Farmers To Customer Delivery</h3>
+                    <p>Cheack for any customer in your area</p>
+                    <a href="#" class="secondary-button">
+                        Learn More  <i class="fa-solid fa-right-long"></i>
+                    </a>
+                </div>
+           
+                <div class="features-card flex">
+                    <img src="..\images\weatherForecastLogo.png" alt="" style="height: 100px; border-radius: 50%;">
+                    <h3>Weather Forecast</h3>
+                    <p>Cheack the weather in your area</p>
+                    <a href="weatherForecast.html" class="secondary-button">
+                        Learn More  <i class="fa-solid fa-right-long"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Big features Section -->
+
+    <section class="big-features-section">
+        <div class="container flex big-feature-container">
+            <div class="feature-image">
+                <img src="..\images\tractorLogo.png" alt="" style="height: 300px;">
+            </div>
+            <div class="feature-desc flex">
+                <h4>Making Growth</h4>
+                <h2>AI will boost Your Income</h2>
+                <p>Discover the power of AI to revolutionize your yields at Farm Mate. Our AI-driven solutions analyze data to optimize crop growth, predict disease outbreaks, and suggest personalized strategies for maximum productivity. Embrace innovation and unlock the full potential of your farm with AI-enhanced farming techniques, exclusively at Farm Mate.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-features-section">
+        <div class="container flex big-feature-container">
+            <div class="feature-desc flex">
+                <h4>Farming Organically</h4>
+                <h2>Organic Farmingh will Increase the Health of Population</h2>
+                <p>Embrace the purity of nature with Farm Mate's Organic Farming section. Dive into a world where sustainable practices and natural solutions reign supreme. Explore our curated resources, expert advice, and innovative tools designed specifically for organic farming. Let Farm Mate be your guide as you cultivate healthy, nutrient-rich crops while nurturing the soil and ecosystem for generations to come.</p>
+            </div>
+            <div class="feature-image">
+                <img src="..\images\organicFarming.jpg" alt="" style="height: 300px;">
+            </div>
+        </div>
+    </section>
+
+    <section class="big-features-section">
+        <div class="container flex big-feature-container">
+            <div class="feature-image">
+                <img src="..\images\sustanableEnvoirnment.jpg" alt="" style="height: 300px;">
+            </div>
+            <div class="feature-desc flex">
+                <h4>Protect Envoirnment</h4>
+                <h2>AI healps to minimize the Harsh impact on envoirnment</h2>
+                <p>Experience the eco-conscious revolution with Farm Mate's AI solutions tailored to minimize environmental impact. Harness the power of artificial intelligence to optimize resource utilization, reduce chemical usage, and foster sustainable farming practices. Join us in safeguarding our planet while maximizing agricultural productivity, only with Farm Mate.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="examples-section"></section>
+
+    <sections class="cta-section"></sections>
+
+    <footer></footer>
+
+    <div class="subfooter"></div>
+
+
+    <div class="spacer" style="height:100vh"></div>
+
+
+    <script src="https://kit.fontawesome.com/81ca092d8e.js" crossorigin="anonymous"></script>
 </body>
 </html>
